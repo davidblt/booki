@@ -1,0 +1,25 @@
+/**************** QUERIES TABLET < 992px ****************/
+
+@media screen and (max-width: 992px) {
+
+	.lodgings-wrapper,
+	.populars-wrapper,
+	.activities-wrapper {
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.populars__title {
+		width: 50%;
+	}
+
+	.activities {
+		text-align: center;
+	}
+
+	.populars-wrapper {
+		min-width: 420px;
+		padding: 24px 0;
+	}
+}
