@@ -4,7 +4,6 @@
 	--blue: #0065fc;
 	--light-blue: #deebff;
 	--light-grey: #f2f2f2;
-
 	/* Shadows */
 	--dark-grey: #808080bb;
 }
@@ -15,6 +14,7 @@
 	padding: 0;
 }
 
+
 body {
 	font-family: "raleway", sans-serif;
 	margin: 0 auto;
@@ -22,16 +22,9 @@ body {
 
 header,
 main {
-	margin-left: 32px;
-	margin-right: 32px;
+	margin-inline: 32px;
 	margin-bottom: 40px;
 }
-
-/* .search,
-.lodgings,
-.activities {
-	margin: 32px 0;
-} */
 
 h1,
 h2 {
@@ -54,7 +47,6 @@ a {
 }
 
 /* Stars */
-
 .blue {
 	color: var(--blue);
 }
@@ -72,10 +64,11 @@ header {
 }
 
 .logo img {
-	width: 150px;
+	width: 160px;
 	max-width: 100%;
 	height: auto;
-	padding: 32px 0 0 24px;
+	padding-top: 32px;
+	padding-left: 24px;
 }
 
 nav {
@@ -92,7 +85,6 @@ nav ul {
 
 nav li {
 	display: flex;
-	/* allowing centered position */
 	justify-content: center;
 	align-items: flex-end;
 	width: 50%;
@@ -115,7 +107,6 @@ nav li:hover {
 .search__form {
 	display: flex;
 	height: 50px;
-	max-width: 600px;
 }
 
 .search__form label {
@@ -123,7 +114,6 @@ nav li:hover {
 	border-radius: 15px 0 0 15px;
 	background-color: var(--light-grey);
 	position: relative;
-	/* allows to center absolute position */
 }
 
 .search__form .fa-location-dot {
@@ -136,21 +126,15 @@ nav li:hover {
 	border: 1px solid var(--light-grey);
 	border-right: none;
 	border-left: none;
-	/* cascading principle to remove border with last declaration */
-	width: 260px;
-	text-indent: 12px;
-	/** left space **/
+	padding-inline: 20px;
 }
 
 .search__form input:focus {
 	outline: none;
-	/* remove border when focused */
 }
 
 ::placeholder {
-	/* pseudo-element allows to modify placeholder */
 	color: inherit;
-	/* original color from html */
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -161,7 +145,7 @@ nav li:hover {
 	background-color: var(--blue);
 	color: white;
 	cursor: pointer;
-	width: 140px;
+	padding-inline: 20px;
 }
 
 .search__form .glass-icon {
@@ -177,9 +161,7 @@ nav li:hover {
 
 .filters {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
-	/* center h3 */
 }
 
 .filters h2 {
@@ -191,8 +173,7 @@ nav li:hover {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	/* center filter buttons */
-	width: 80%;
+	justify-content: space-between;
 }
 
 .filters__button {
@@ -204,12 +185,11 @@ nav li:hover {
 	cursor: pointer;
 	height: 50px;
 	margin: 10px 32px;
-	margin-left: 0;
+	margin-right: 0;
 }
 
 .filters__icon {
 	display: flex;
-	/* allows to center content */
 	justify-content: center;
 	align-items: center;
 	width: 50px;
@@ -224,8 +204,8 @@ nav li:hover {
 	display: flex;
 	align-items: center;
 	font-size: 18px;
-	font-weight: bold;
-	padding: 0 16px 0 8px;
+	font-weight: 700;
+	padding-inline: 16px;
 	transition: 0.3s;
 }
 
@@ -268,10 +248,10 @@ nav li:hover {
 	background-color: var(--light-grey);
 	padding: 40px;
 	border-radius: 25px;
+	gap: 30px;
 }
 
 .lodgings-list {
-	/* flex-grow: 1; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -321,6 +301,7 @@ nav li:hover {
 .populars-container {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	width: 33%;
 	background-color: var(--light-grey);
 	border-radius: 25px;
@@ -331,6 +312,7 @@ nav li:hover {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
+	width: 100%;
 }
 
 .populars-list {
@@ -339,11 +321,12 @@ nav li:hover {
 	justify-content: space-between;
 	flex-wrap: nowrap;
 	gap: 30px;
+	min-width: 280px;
 }
 
 .populars__card a {
 	display: flex;
-	flex: 1 1 190px;
+	flex: 1 1 240px;
 	height: 160px;
 	background-color: white;
 	border-radius: 25px;
@@ -371,7 +354,7 @@ nav li:hover {
 .activities {
 	display: flex;
 	flex-direction: column;
-	margin: 60px 0;
+	margin-top: 60px;
 }
 
 .activities-container {
@@ -439,12 +422,14 @@ footer {
 	background-color: var(--light-grey);
 	display: flex;
 	flex-wrap: wrap;
-	padding: 40px 0 0 32px;
+	padding-left: 32px;
+	justify-content: space-between;
 }
 
 .footer-item {
 	width: 30%;
 	line-height: 2;
+	margin: 40px 0;
 }
 
 .footer-item h3 {

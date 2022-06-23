@@ -1,15 +1,12 @@
-/**************** QUERIES MOBILE < 768px ****************/
+/** MEDIA QUERIES MOBILE < 768px **/
 
 @media screen and (max-width: 768px) {
-	.main_wrapper {
-		width: 100%;
-		margin: auto;
-	}
 
 	/****************  HEADER  ******************/
 	header {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 
 	h1 {
@@ -117,13 +114,13 @@
 
 	/*************  ACTIVITIES IN MARSEILLE  ***************/
 
-	.activities-wrapper {
+	.activities-container {
 		flex-direction: column;
-		row-gap: 24px;
+		row-gap: 30px;
 	}
 
 	.activities-column {
-		row-gap: 24px;
+		row-gap: 30px;
 	}
 
 	.activities-large-card img,
