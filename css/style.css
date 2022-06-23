@@ -17,19 +17,19 @@
 
 body {
 	font-family: "raleway", sans-serif;
-	margin: 0 auto;
+	margin: auto;
+	min-width: 460px;
 }
 
 header,
 main {
-	margin-inline: 32px;
+	margin-inline: 40px;
 	margin-bottom: 40px;
 }
 
 h1,
 h2 {
 	font-size: 20px;
-	font-weight: 700;
 }
 
 li {
@@ -90,10 +90,17 @@ nav li {
 	width: 50%;
 }
 
+nav li:active {
+	border-top: 3px solid var(--blue);
+	color: var(--blue);
+}
+
 nav li:hover {
 	border-top: 3px solid var(--blue);
 	color: var(--blue);
 }
+
+
 
 /** SEARCH FORM **/
 
@@ -127,6 +134,7 @@ nav li:hover {
 	border-right: none;
 	border-left: none;
 	padding-inline: 20px;
+	font-weight: 700;
 }
 
 .search__form input:focus {
@@ -136,7 +144,7 @@ nav li:hover {
 ::placeholder {
 	color: inherit;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .search__form button {
@@ -148,7 +156,7 @@ nav li:hover {
 	padding-inline: 20px;
 }
 
-.search__form .glass-icon {
+.search__form-icon {
 	display: none;
 }
 
@@ -166,7 +174,7 @@ nav li:hover {
 
 .filters h2 {
 	font-size: 18px;
-	margin-right: 32px;
+	margin-right: 20px;
 }
 
 .filters-container {
@@ -184,8 +192,7 @@ nav li:hover {
 	background-color: white;
 	cursor: pointer;
 	height: 50px;
-	margin: 10px 32px;
-	margin-right: 0;
+	margin: 10px;
 }
 
 .filters__icon {
@@ -216,6 +223,11 @@ nav li:hover {
 	border: 3px solid var(--light-blue);
 }
 
+.info {
+	display: flex;
+	align-items: center;
+}
+
 .info .fa-info {
 	display: inline-flex;
 	justify-content: center;
@@ -228,6 +240,10 @@ nav li:hover {
 	margin-right: 16px;
 }
 
+.info p {
+	word-wrap: break-word;
+}
+
 /** LODGINGS AND POPULARS **/
 
 .lodgings {
@@ -235,7 +251,7 @@ nav li:hover {
 	justify-content: space-between;
 	width: 100%;
 	column-gap: 30px;
-	margin-bottom: 32px;
+	margin-bottom: 40px;
 }
 
 /** LODGINGS IN MARSEILLE **/
@@ -261,8 +277,7 @@ nav li:hover {
 
 .lodgings__card {
 	flex: 1 1 31%;
-	min-width: 200px;
-	height: 230px;
+	min-width: 240px;
 	border-radius: 25px;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 var(--dark-grey);
@@ -347,14 +362,13 @@ nav li:hover {
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: space-around;
-	padding-left: 6px;
+	padding: 6px;
 }
 
 /** ACTIVITIES IN MARSEILLE **/
 .activities {
 	display: flex;
 	flex-direction: column;
-	margin-top: 60px;
 }
 
 .activities-container {
@@ -422,14 +436,14 @@ footer {
 	background-color: var(--light-grey);
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 32px;
+	padding: 40px;
 	justify-content: space-between;
 }
 
 .footer-item {
 	width: 30%;
 	line-height: 2;
-	margin: 40px 0;
+	margin: 20px 0;
 }
 
 .footer-item h3 {

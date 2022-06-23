@@ -3,14 +3,16 @@
 @media screen and (max-width: 768px) {
 
 	/****************  HEADER  ******************/
-	header {
+	header,
+	main {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-inline: 0;
 	}
 
 	h1 {
-		margin: 0 auto 20px;
+		/* margin: 0 auto 20px; */
 	}
 
 	nav {
@@ -33,9 +35,8 @@
 	}
 
 	/****************  SEARCH FORM  *****************/
-
 	.search {
-		margin: 20px 12px;
+		margin-inline: 40px;
 	}
 
 	.search-form__button {
@@ -43,11 +44,11 @@
 		border-radius: 12px;
 	}
 
-	.search-form__text {
+	.search__form-txt {
 		display: none;
 	}
 
-	.search-form__icon {
+	.search__form-icon {
 		display: contents;
 	}
 
@@ -56,57 +57,48 @@
 	.filters {
 		flex-direction: column;
 		align-items: flex-start;
-		row-gap: 12px;
-	}
-
-	.filters-wrapper {
-		justify-content: space-between;
-	}
-
-	.filters__button {
-		margin: 12px 0 12px 0;
 	}
 
 	/**************  LODGINGS AND POPULARS  *****************/
 
 	.lodgings {
 		flex-direction: column-reverse;
+		width: 100%;
 	}
 
 	/*** POPULARS ***/
 
-	.populars-wrapper {
+	.populars-container {
 		border-radius: 0;
 	}
 
-	.populars__title {
-		width: 72%;
-		margin-right: 40px;
-	}
-
-
-	.populars__card {
-		max-width: 310px;
-		margin-right: 40px;
+	.populars-list {
+		width: 100%;
 	}
 
 	/*** LODGINGS ***/
 
-	.lodgings-wrapper {
+	.lodgings-container {
 		background-color: #fff;
-		padding: 0;
 	}
 
 	.lodgings-list {
+		width: 100%;
 		align-items: center;
+		flex-direction: column;
 	}
 
-	.lodgings__card,
+	.lodgings__card {
+		width: 100%;
+		height: 160px;
+	}
+
+	/* .lodgings__card,
 	.activities-large-card,
 	.activities-column-card {
 		min-width: 310px;
 		height: 240px;
-	}
+	} */
 
 	.lodgings__card img {
 		height: 150px;
@@ -114,18 +106,8 @@
 
 	/*************  ACTIVITIES IN MARSEILLE  ***************/
 
-	.activities-container {
-		flex-direction: column;
-		row-gap: 30px;
-	}
-
 	.activities-column {
-		row-gap: 30px;
-	}
-
-	.activities-large-card img,
-	.activities-column-card img {
-		height: 160px;
+		width: 100%;
 	}
 
 	/***************  FOOTER  ****************/
@@ -134,9 +116,5 @@
 		flex-flow: column wrap;
 		align-items: center;
 		padding-left: 0;
-	}
-
-	.footer-item {
-		width: 50%;
 	}
 }
