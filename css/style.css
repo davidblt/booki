@@ -1,11 +1,10 @@
 /** GENERAL **/
-
 :root {
 	--blue: #0065fc;
 	--light-blue: #deebff;
 	--light-grey: #f2f2f2;
-	/* Shadows */
 	--dark-grey: #808080bb;
+	font-family: "raleway", sans-serif;
 }
 
 * {
@@ -16,9 +15,8 @@
 
 
 body {
-	font-family: "raleway", sans-serif;
 	margin: auto;
-	min-width: 460px;
+	min-width: 300px;
 }
 
 header,
@@ -90,17 +88,10 @@ nav li {
 	width: 50%;
 }
 
-nav li:active {
-	border-top: 3px solid var(--blue);
-	color: var(--blue);
-}
-
 nav li:hover {
 	border-top: 3px solid var(--blue);
 	color: var(--blue);
 }
-
-
 
 /** SEARCH FORM **/
 
@@ -234,7 +225,7 @@ nav li:hover {
 	align-items: center;
 	width: 24px;
 	height: 24px;
-	border: 1px solid var(--light-grey);
+	border: 1px solid var(--dark-grey);
 	border-radius: 50%;
 	color: var(--blue);
 	margin-right: 16px;
@@ -260,7 +251,7 @@ nav li:hover {
 	display: flex;
 	flex-direction: column;
 	width: 67%;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	background-color: var(--light-grey);
 	padding: 40px;
 	border-radius: 25px;
@@ -270,7 +261,7 @@ nav li:hover {
 .lodgings-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	gap: 30px;
 	margin-bottom: 30px;
 }
@@ -333,8 +324,7 @@ nav li:hover {
 .populars-list {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	flex-wrap: nowrap;
+	/* justify-content: space-between; */
 	gap: 30px;
 	min-width: 280px;
 }
@@ -342,7 +332,7 @@ nav li:hover {
 .populars__card a {
 	display: flex;
 	flex: 1 1 240px;
-	height: 160px;
+	height: 170px;
 	background-color: white;
 	border-radius: 25px;
 	box-shadow: 0 4px 8px 0 var(--dark-grey);
