@@ -129,7 +129,7 @@ nav li:hover {
 }
 
 .search__form input:focus {
-	outline: 1px solid var(--blue);
+	outline: none;
 }
 
 ::placeholder {
