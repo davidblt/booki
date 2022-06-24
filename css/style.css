@@ -40,8 +40,8 @@ a {
 }
 
 .card-hover:hover {
-	transform: scale(1.05);
-	box-shadow: 0px 8px 16px 0 var(--dark-grey);
+	transform: scale(1.1);
+	box-shadow: 0px 8px 16px var(--dark-grey);
 }
 
 /* Stars */
@@ -128,10 +128,6 @@ nav li:hover {
 	font-weight: 700;
 }
 
-.search__form input:focus {
-	outline: none;
-}
-
 ::placeholder {
 	color: inherit;
 	font-size: 18px;
@@ -204,14 +200,14 @@ nav li:hover {
 	font-size: 18px;
 	font-weight: 700;
 	padding-inline: 16px;
-	transition: 0.3s;
+	transition: all 0.3s;
 }
 
 .filters__button:hover {
-	background-color: var(--blue);
 	color: #fff;
-	box-shadow: 0 4px 8px 0 var(--dark-grey);
+	box-shadow: 0 4px 8px var(--dark-grey);
 	border: 3px solid var(--light-blue);
+	background: linear-gradient(to right bottom, var(--light-blue), var(--blue));
 }
 
 .info {
