@@ -15,32 +15,6 @@
 	width: 50%;
 }
 
-/* .populars__card a {
-		display: flex;
-		flex-direction: column;
-		min-width: 200px;
-		height: 230px;
-		border-radius: 25px;
-		background-color: white;
-		box-shadow: 0 4px 8px 0 var(--dark-grey);
-		transition: 0.3s;
-	}
-
-	.populars__card img {
-		width: 100%;
-		padding: 6px 6px 0 6px;
-		border-radius: 25px 25px 0 0;
-		height: 140px;
-		max-width: 100%;
-		max-height: 100%;
-		object-fit: cover;
-	}
-
-	.populars__info {
-		height: 90px;
-		padding: 0 6px 6px 18px;
-	} */
-
 .populars__card a {
 	display: flex;
 	flex: 1 1 240px;

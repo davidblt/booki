@@ -1,6 +1,6 @@
 /** MEDIA QUERIES MOBILE < 768px **/
 
-/****************  HEADER  ******************/
+/**  HEADER **/
 header,
 main {
 	display: flex;
@@ -28,7 +28,7 @@ nav ul li:hover {
 	border-bottom: 3px solid var(--blue);
 }
 
-/****************  SEARCH FORM  *****************/
+/**  SEARCH FORM  **/
 .search {
 	margin-inline: 40px;
 }
@@ -46,21 +46,21 @@ nav ul li:hover {
 	display: contents;
 }
 
-/****************  FILTERS *****************/
+/**  FILTERS **/
 
 .filters {
 	flex-direction: column;
 	align-items: flex-start;
 }
 
-/**************  LODGINGS AND POPULARS  *****************/
+/**  LODGINGS AND POPULARS **/
 
 .lodgings {
 	flex-direction: column-reverse;
 	width: 100%;
 }
 
-/*** POPULARS ***/
+/** POPULARS **/
 
 .populars-container {
 	border-radius: 0;
@@ -70,7 +70,7 @@ nav ul li:hover {
 	width: 100%;
 }
 
-/*** LODGINGS ***/
+/** LODGINGS **/
 
 .lodgings-container {
 	background-color: #fff;
@@ -98,13 +98,13 @@ nav ul li:hover {
 	height: 150px;
 }
 
-/*************  ACTIVITIES IN MARSEILLE  ***************/
+/**  ACTIVITIES IN MARSEILLE **/
 
 .activities-column {
 	width: 100%;
 }
 
-/***************  FOOTER  ****************/
+/** FOOTER **/
 
 footer {
 	flex-flow: column wrap;
