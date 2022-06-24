@@ -1,22 +1,21 @@
 /** MEDIA QUERIES TABLET < 992px  **/
 
-@media screen and (max-width: 992px) {
-	.lodgings {
-		flex-direction: column;
-		align-items: center;
-		row-gap: 30px;
-	}
+.lodgings {
+	flex-direction: column;
+	align-items: center;
+	row-gap: 30px;
+}
 
-	.lodgings-container,
-	.populars-container {
-		width: 100%;
-	}
+.lodgings-container,
+.populars-container {
+	width: 100%;
+}
 
-	.populars-list {
-		width: 50%;
-	}
+.populars-list {
+	width: 50%;
+}
 
-	/* .populars__card a {
+/* .populars__card a {
 		display: flex;
 		flex-direction: column;
 		min-width: 200px;
@@ -42,59 +41,58 @@
 		padding: 0 6px 6px 18px;
 	} */
 
-	.populars__card a {
-		display: flex;
-		flex: 1 1 240px;
-		height: 160px;
-		background-color: white;
-		border-radius: 25px;
-		box-shadow: 0 4px 8px 0 var(--dark-grey);
-		transition: 0.3s;
-	}
+.populars__card a {
+	display: flex;
+	flex: 1 1 240px;
+	height: 160px;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 var(--dark-grey);
+	transition: 0.3s;
+}
 
-	.populars__card img {
-		width: 40%;
-		height: 100%;
-		border-radius: 25px 0 0 25px;
-		padding: 6px;
-		object-fit: cover;
-	}
+.populars__card img {
+	width: 40%;
+	height: 100%;
+	border-radius: 25px 0 0 25px;
+	padding: 6px;
+	object-fit: cover;
+}
 
-	.populars__info {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		justify-content: space-around;
-		padding-left: 6px;
-	}
+.populars__info {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 6px;
+}
 
-	.activities {
-		width: 100%;
-		padding: 40px;
-	}
+.activities {
+	width: 100%;
+	padding: 40px;
+}
 
-	.activities-container {
-		row-gap: 30px;
-		width: 100%;
-		flex-direction: column;
-		align-items: center;
-	}
+.activities-container {
+	row-gap: 30px;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
 
-	.activities-column {
-		width: 50%;
-		gap: 30px;
-	}
+.activities-column {
+	width: 50%;
+	gap: 30px;
+}
 
-	.activities-large-card,
-	.activities-column-card {
-		flex: 1 1 31%;
-		min-width: 240px;
-		height: 230px;
-		;
-	}
+.activities-large-card,
+.activities-column-card {
+	flex: 1 1 31%;
+	min-width: 240px;
+	height: 230px;
+	;
+}
 
-	.activities-large-card img,
-	.activities-column-card img {
-		height: 180px;
-	}
+.activities-large-card img,
+.activities-column-card img {
+	height: 180px;
 }
