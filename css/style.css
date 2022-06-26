@@ -88,7 +88,8 @@ nav li {
 	width: 50%;
 }
 
-nav li:hover, nav li:active {
+nav li:hover,
+nav li:active {
 	border-top: 3px solid var(--blue);
 	color: var(--blue);
 }
@@ -219,7 +220,7 @@ nav li:hover, nav li:active {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	width: 24px;
+	min-width: 24px;
 	height: 24px;
 	border: 1px solid var(--dark-grey);
 	border-radius: 50%;
