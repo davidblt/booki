@@ -87,13 +87,6 @@ nav ul li:hover {
 	height: 160px;
 }
 
-/* .lodgings__card,
-	.activities-large-card,
-	.activities-column-card {
-		min-width: 310px;
-		height: 240px;
-	} */
-
 .lodgings__card img {
 	height: 150px;
 }
@@ -108,6 +101,6 @@ nav ul li:hover {
 
 footer {
 	flex-flow: column wrap;
-	align-items: center;
-	padding-left: 0;
+	align-items: flex-start;
+	padding-left: 40px;
 }
