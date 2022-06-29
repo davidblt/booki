@@ -23,7 +23,7 @@ nav ul li {
 	border-bottom: 3px solid var(--light-grey);
 }
 
-nav ul li:hover {
+nav li:active {
 	border-top: none;
 	border-bottom: 3px solid var(--blue);
 }
@@ -68,7 +68,14 @@ nav ul li:hover {
 
 .populars-list {
 	width: 100%;
+	height: auto;
 }
+
+.populars__card {
+	width: 100%;
+}
+
+
 
 /** LODGINGS **/
 
@@ -93,14 +100,26 @@ nav ul li:hover {
 
 /**  ACTIVITIES IN MARSEILLE **/
 
-.activities-column {
+.activities {
+	padding-inline: 40px;
+	width: 100%;
+	margin-top: 0;
+}
+
+.activities-container {
+	flex-direction: column;
+}
+
+.activities__card {
 	width: 100%;
 }
 
 /** FOOTER **/
 
 footer {
-	flex-flow: column wrap;
-	align-items: flex-start;
-	padding-left: 40px;
+	flex-direction: column;
+}
+
+.footer__item {
+	width: 100%;
 }

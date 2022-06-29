@@ -4,22 +4,24 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- adding viewport meta for responsive -->
+        <!-- Viewport meta for responsive -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Booki</title>
         <meta name="description"
             content="Avec Booki, trouvez votre h&eacute;bergement pour des vacances de r&ecirc;ves en plein centre ville ou en pleine nature">
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-        <!-- adding favicon -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <!-- Favicon -->
         <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
-        <!-- adding css stylesheet for desktop / tablet / mobile -->
+        <!-- CSS stylesheets for desktop / tablet / mobile -->
         <link rel="stylesheet" href="./css/normalize.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" type="text/css" href="css/tablet.css" media="screen and (max-width: 992px)">
         <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 768px)">
-        <!-- adding font awesome link -->
+        <!-- Font awesome link -->
         <script src="https://kit.fontawesome.com/d39b49135d.js" crossorigin="anonymous"></script>
     </head>
 
@@ -36,7 +38,7 @@
         </header>
 
         <main>
-            <!-- FORM and FILTERS-->
+            <!-- SEARCH FORM and FILTERS-->
             <section class="search">
                 <div class="search__title">
                     <h1>Trouvez votre h&eacute;bergement pour des vacances de r&ecirc;ves</h1>
@@ -76,7 +78,7 @@
                         disponibles dans cette ville</p>
                 </div>
             </section>
-            <!-- LODGING AND POPULARS -->
+            <!-- LODGING AND MOST POPULARS LISTS -->
             <section class="lodgings">
                 <div class="lodgings-container">
                     <h2 id="lodgings" class="lodgings-title">H&eacute;bergements à Marseille</h2>
@@ -87,8 +89,8 @@
                                     alt="Chambre à l'Auberge La Canebière" loading="lazy">
                                 <div class="lodgings__info">
                                     <div class="lodgings__info-text">
-                                        <h4>Auberge La Canebi&egrave;re</h4>
-                                        <p>Nuit à partir de 25 &euro;</p>
+                                        <h3>Auberge La Canebi&egrave;re</h3>
+                                        <p>Nuit à partir de 25<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -106,8 +108,8 @@
                                     alt="Chambre de l'Hôtel du port" loading="lazy">
                                 <div class="lodgings__info">
                                     <div class="lodgings__info-text">
-                                        <h4>H&ocirc;tel du Port</h4>
-                                        <p>Nuit à partir de 52 &euro;</p>
+                                        <h3>H&ocirc;tel du Port</h3>
+                                        <p>Nuit à partir de 52<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -125,8 +127,8 @@
                                     alt="Chambre de l'Hôtel Les Mouettes" loading="lazy">
                                 <div class="lodgings__info">
                                     <div class="lodgings__info-text">
-                                        <h4>H&ocirc;tel Les Mouettes</h4>
-                                        <p>Nuit à partir de 76 &euro;</p>
+                                        <h3>H&ocirc;tel Les Mouettes</h3>
+                                        <p>Nuit à partir de 76<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -144,8 +146,8 @@
                                     alt="Chambre de l'Hôtel de La Mer" loading="lazy">
                                 <div class="lodgings__info">
                                     <div class="lodgings__info-text">
-                                        <h4>H&ocirc;tel de La Mer</h4>
-                                        <p>Nuit à partir de 46 &euro;</p>
+                                        <h3>H&ocirc;tel de La Mer</h3>
+                                        <p>Nuit à partir de 46<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -163,8 +165,8 @@
                                     alt="Chambre de l'Auberge Le Panier" loading="lazy">
                                 <div class="lodgings__info">
                                     <div class="lodgings__info-text">
-                                        <h4>Auberge Le Panier</h4>
-                                        <p>Nuit à partir de 23 &euro;</p>
+                                        <h3>Auberge Le Panier</h3>
+                                        <p>Nuit à partir de 23<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -182,8 +184,8 @@
                                     alt="Chambre de l'Hôtel Chez Amina" loading="lazy">
                                 <div class="lodgings__info">
                                     <div class="lodgings__info-text">
-                                        <h4>H&ocirc;tel Chez Amina</h4>
-                                        <p>Nuit à partir de 96 &euro;</p>
+                                        <h3>H&ocirc;tel Chez Amina</h3>
+                                        <p>Nuit à partir de 96<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -200,7 +202,7 @@
                         <a href="#">Afficher plus</a>
                     </div>
                 </div>
-                <!-- MOST POPULARS -->
+                <!-- MOST POPULARS LIST -->
                 <aside class="populars-container">
                     <div class="populars__title">
                         <h2>Les plus populaires</h2>
@@ -213,8 +215,8 @@
                                     alt="Chambre de l'Hôtel Le Soleil du Matin" loading="lazy">
                                 <div class="populars__info">
                                     <div class="populars__info-text">
-                                        <h4>H&ocirc;tel Le Soleil du Matin</h4>
-                                        <p>Nuit à partir de 128 &euro;</p>
+                                        <h3>H&ocirc;tel Le Soleil du Matin</h3>
+                                        <p>Nuit à partir de 128<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -232,8 +234,8 @@
                                     alt="Chambre de Au Coeur de l'Eau Chambres d'hôtes" loading="lazy">
                                 <div class="populars__info">
                                     <div class="populars__info-text">
-                                        <h4>Au Coeur de l'Eau <br> Chambres d'h&ocirc;tes</h4>
-                                        <p>Nuit à partir de 71 &euro;</p>
+                                        <h3>Au Coeur de l'Eau <br> Chambres d&apos;h&ocirc;tes</h3>
+                                        <p>Nuit à partir de 71<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -251,8 +253,8 @@
                                     alt="Chambre de l'Hôtel Tout Bleu et Blanc" loading="lazy">
                                 <div class="populars__info">
                                     <div class="populars__info-text">
-                                        <h4>H&ocirc;tel Tout Bleu et Blanc</h4>
-                                        <p>Nuit à partir de 68 &euro;</p>
+                                        <h3>H&ocirc;tel Tout Bleu et Blanc</h3>
+                                        <p>Nuit à partir de 68<span class="currency">&euro;</span></p>
                                     </div>
                                     <div class="stars">
                                         <i class="fa-solid fa-star blue"></i>
@@ -271,62 +273,55 @@
             <section class="activities">
                 <h2 id="activities" class="activities-title">Activit&eacute;s à Marseille</h2>
                 <div class="activities-container">
-                    <div class="activities-column">
-                        <article class="activities-large-card card-hover">
-                            <a href="#">
-                                <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                                    alt="Photo du Vieux port" loading="lazy">
-                                <h4 class="activities-card-info">Vieux Port</h4>
-                            </a>
-                        </article>
-                    </div>
-                    <div class="activities-column">
-                        <article class="activities-column-card pomegues card-hover">
-                            <a href="#">
-                                <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                                    alt="Photo du Fort de Pomegues" loading="lazy">
-                                <h4 class="activities-card-info">Fort de Pom&egrave;gues</h4>
-                            </a>
-                        </article>
-                        <article class="activities-column-card frioul card-hover">
-                            <a href="#">
-                                <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                                    alt="Photo des Iles du Frioul" loading="lazy">
-                                <h4 class="activities-card-info">&Icirc;les du Frioul</h4>
-                            </a>
-                        </article>
-                    </div>
-                    <div class="activities-column">
-                        <article class="activities-large-card card-hover">
-                            <a href="#">
-                                <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                                    alt="Photo du Parc National des Calanques" loading="lazy">
-                                <h4 class="activities-card-info">Parc National des Calanques</h4>
-                            </a>
-                        </article>
-                    </div>
-                    <div class="activities-column">
-                        <article class="activities-column-card card-hover">
-                            <a href="#">
-                                <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                                    alt="Photo de Notre-Dame-de-la-Garde" loading="lazy">
-                                <h4 class="activities-card-info ">Notre-Dame-de-la-Garde</h4>
-                            </a>
-                        </article>
-                        <article class="activities-column-card card-hover">
-                            <a href="#">
-                                <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                                    alt="Photo du Parc Longchamp" loading="lazy">
-                                <h4 class="activities-card-info ">Parc Longchamp</h4>
-                            </a>
-                        </article>
-                    </div>
+
+                    <article class="activities__card card-hover">
+                        <a href="#">
+                            <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="Photo du Vieux port" loading="lazy">
+                            <h3>Vieux Port</h3>
+                        </a>
+                    </article>
+                    <article class="activities__card card-hover">
+                        <a href="#">
+                            <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                alt="Photo du Fort de Pomegues" loading="lazy">
+                            <h3>Fort de Pom&egrave;gues</h3>
+                        </a>
+                    </article>
+                    <article class="activities__card card-hover">
+                        <a href="#">
+                            <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                alt="Photo des Iles du Frioul" loading="lazy">
+                            <h3>&Icirc;les du Frioul</h3>
+                        </a>
+                    </article>
+                    <article class="activities__card card-hover">
+                        <a href="#">
+                            <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                                alt="Photo du Parc National des Calanques" loading="lazy">
+                            <h3>Parc National des Calanques</h3>
+                        </a>
+                    </article>
+                    <article class="activities__card card-hover">
+                        <a href="#">
+                            <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                alt="Photo de Notre-Dame-de-la-Garde" loading="lazy">
+                            <h3>Notre-Dame-de-la-Garde</h3>
+                        </a>
+                    </article>
+                    <article class="activities__card card-hover">
+                        <a href="#">
+                            <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                alt="Photo du Parc Longchamp" loading="lazy">
+                            <h3>Parc Longchamp</h3>
+                        </a>
+                    </article>
                 </div>
             </section>
         </main>
 
         <footer>
-            <div class="footer-item">
+            <div class="footer__item">
                 <h3>A propos</h3>
                 <ul>
                     <li><a href="#">Fonctionnement du site</a></li>
@@ -334,17 +329,17 @@
                     <li><a href="#">Donn&eacute;es et confidentialit&eacute;</a></li>
                 </ul>
             </div>
-            <div class="footer-item">
+            <div class="footer__item">
                 <h3>Nos h&eacute;bergements</h3>
                 <ul>
                     <li><a href="#">Charte qualit&eacute;</a></li>
                     <li><a href="#">Soumettre votre hôtel</a></li>
                 </ul>
             </div>
-            <div class="footer-item">
+            <div class="footer__item">
                 <h3>Assitance</h3>
                 <ul>
-                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Centre d&apos;aide</a></li>
                     <li><a href="#">Nous contacter</a></li>
                 </ul>
             </div>

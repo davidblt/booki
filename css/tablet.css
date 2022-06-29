@@ -1,9 +1,18 @@
 /** MEDIA QUERIES TABLET < 992px  **/
 
+/** CARDS EFFECTS **/
+
+/* :active replace :hover for touch screens **/
+.card-hover:active {
+	transform: scale(1.1);
+	box-shadow: 0px 8px 16px var(--dark-grey);
+}
+
+/** LODGINGS AND MOST POPULARS **/
+
 .lodgings {
 	flex-direction: column;
 	align-items: center;
-	row-gap: 30px;
 }
 
 .lodgings-container,
@@ -12,61 +21,37 @@
 }
 
 .populars-list {
-	width: 50%;
-}
-
-.populars__card a {
-	display: flex;
-	flex: 1 1 240px;
-	height: 160px;
-	background-color: white;
-	border-radius: 25px;
-	box-shadow: 0 4px 8px 0 var(--dark-grey);
-	transition: 0.3s;
-}
-
-.populars__card img {
-	width: 40%;
-	height: 100%;
-	border-radius: 25px 0 0 25px;
-	padding: 6px;
-	object-fit: cover;
-}
-
-.populars__info {
-	display: flex;
 	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: space-around;
-	padding-left: 6px;
+	align-content: space-between;
+	width: 100%;
+	height: 400px;
 }
+
+.populars__card {
+	width: 47%;
+}
+
+
+/** ACTIVITES IN MARSEILLE **/
 
 .activities {
 	width: 100%;
-	padding: 40px;
 }
 
 .activities-container {
-	row-gap: 30px;
-	width: 100%;
-	flex-direction: column;
-	align-items: center;
-}
-
-.activities-column {
-	width: 50%;
 	gap: 30px;
+	width: 100%;
+	height: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.activities-large-card,
-.activities-column-card {
-	flex: 1 1 31%;
-	min-width: 240px;
-	height: 230px;
-	;
+.activities__card {
+	width: 45%;
 }
 
-.activities-large-card img,
-.activities-column-card img {
-	height: 180px;
+.activities__card img {
+	height: 174px;
 }
