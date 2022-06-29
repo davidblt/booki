@@ -23,6 +23,7 @@ nav ul li {
 	border-bottom: 3px solid var(--light-grey);
 }
 
+nav li:hover,
 nav li:active {
 	border-top: none;
 	border-bottom: 3px solid var(--blue);
