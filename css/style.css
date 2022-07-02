@@ -132,6 +132,7 @@ nav li:active {
 	border-left: none;
 	padding-inline: 20px;
 	font-weight: 700;
+	outline: none;
 }
 
 ::placeholder {
