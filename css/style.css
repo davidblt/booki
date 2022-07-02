@@ -397,7 +397,7 @@ nav li:active {
 .activities__card h3 {
 	display: flex;
 	align-items: center;
-	height: 60px;
+	min-height: 60px;
 	padding: 6px 16px;
 	margin-bottom: 0;
 }
