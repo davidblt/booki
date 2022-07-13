@@ -5,6 +5,7 @@
 	--light-grey: #f2f2f2;
 	--dark-grey: #808080bb;
 	font-family: "raleway", sans-serif;
+	scroll-behavior: smooth;
 }
 
 * {
