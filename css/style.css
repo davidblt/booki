@@ -4,14 +4,17 @@
 	--light-blue: #deebff;
 	--light-grey: #f2f2f2;
 	--dark-grey: #808080bb;
-	font-family: "raleway", sans-serif;
-	scroll-behavior: smooth;
 }
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: "raleway", sans-serif;
 }
 
 
